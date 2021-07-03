@@ -1,0 +1,161 @@
+body{
+    background: #F5F6FB;
+}
+
+/* Update components bootstrap */
+h1.h2{
+    color: #3E5C73;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p.h4{
+    color: #9EA9B7;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.btn-primary{
+    background-color: #6CD9D9;
+    border: none;
+    
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 3% 10%;
+}
+
+
+/* Header Section */
+.header{
+    background: url("../assets/img/foto-header.png") no-repeat, #184059;
+    background-position: 150%;
+
+    height: 450px;
+    overflow: hidden;
+}
+
+.header .container .row .col-sm-8{
+    padding: 5% 5%;
+    color: #fff;
+}
+
+.header .container .row .col-sm-8 .logo{
+    margin-bottom: 100px;
+}
+
+.header .container .row .col-sm-8 .title{
+    margin-bottom: 30px;
+}
+
+.header .container .row .col-sm-8 .legend{
+    width: 60%;
+    font-size: 18px;
+}
+
+.header .container .row .col-sm-4 img{
+    width: 300px;
+    margin-top: 50px;
+}
+
+/* Complementary Contents Section*/
+.complementary-contents{
+    background: #fff;
+
+    padding: 5% 15%;
+}
+
+.complementary-contents .container .row .col-sm-4{
+    padding: 0 4%;
+}
+
+.complementary-contents .container .row .col-sm-4 .card{
+    border: none;
+}
+
+.complementary-contents .container .row .col-sm-4 .card,
+.complementary-contents .container .row .col-sm-4 .card img{
+    border-radius: 20px;
+}
+
+.complementary-contents .container .row .col-sm-4 .card .card-body{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.complementary-contents .container .row .col-sm-4 .card .card-body .card-title{
+    margin: 5% 0;
+}
+
+.complementary-contents .container .row .col-sm-12{
+    margin-top: 50px;
+    width: 95%;
+    border-radius: 20px;
+    background: #F5F6FB;
+}
+
+.complementary-contents .container .row .col-sm-12 img{
+    width: 50%;
+}
+
+.complementary-contents .container .row .col-sm-12 .container{
+    padding-left: 7.5%;
+}
+
+.complementary-contents .container .row .col-sm-12 .container a{
+    width: 50%;
+    padding: 3% 1%;
+}
+
+
+/* Contact */
+.contact{
+    padding: 5%;
+}
+
+.contact .container .row .col-sm-5 .form{
+    background-color: #fff;
+    padding: 10% 15%;
+    border-radius: 20px;
+
+    color: #9EA9B7;
+}
+
+.contact .container .row .col-sm-5 .form input[type="text"],
+.contact .container .row .col-sm-5 .form select,
+.contact .container .row .col-sm-5 .form input[type="tel"]{
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #9EA9B7;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.contact .container .row .col-sm-5 .form input[type="text"]::placeholder,
+.contact .container .row .col-sm-5 .form select,
+.contact .container .row .col-sm-5 .form input[type="tel"]::placeholder{
+    color: #9EA9B7;
+}
+
+.contact .container .row .col-sm-5 .form .d-flex .form-check .form-check-label,
+.contact .container .row .col-sm-5 .form .form-check .form-check-label{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.contact .container .row .col-sm-5 .form .d-flex .h6{
+    margin-top: 10px;
+    color: #3E5C73;
+    font-size: 13px;
+}
+
+.contact .container .row .col-sm-5 .form .line-bottom{
+    margin-bottom: 20px;
+    border-bottom: solid 2px #3E5C73;
+}
+
+.contact .container .row .col-sm-5 .form input[type="button"]{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
