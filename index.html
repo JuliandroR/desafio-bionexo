@@ -19,6 +19,11 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
     <link rel="stylesheet" href="./css/index.css" />
 
     <title>Semana de Eventos Bionexo</title>
@@ -50,6 +55,260 @@
         </div>
       </div>
     </header>
+
+    <section class="next-events">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-sm-4 d-flex flex-row switch">
+            <div class="text-center selected switch-event">
+              <span>Próximos Eventos</span>
+            </div>
+            <div class="text-center switch-event">
+              <span>Eventos Anteriores</span>
+            </div>
+          </div>
+          <div id="next-events" class="col-sm-12">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div
+                    class="
+                      event
+                      d-flex
+                      flex-row
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <img
+                      src="./assets/img/[futuro]thumbs.png"
+                      alt="Thumb do evento Bionexo Futuro"
+                      sizes="cover"
+                    />
+                    <div class="content-event">
+                      <h3>Bionexo Futuro</h3>
+                      <p class="h5">
+                        Conheça a jornada de fornecedores na Bionexo e seja um
+                        vendedor estratégico na saúde
+                      </p>
+                      <div class="date-time">
+                        <p><strong>Data: </strong> 8 de junho</p>
+                        <p><strong>Hora: </strong> 17h30</p>
+                      </div>
+
+                      <button class="btn-primary">Participe do evento</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div
+                    class="
+                      event
+                      d-flex
+                      flex-row
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <img
+                      src="./assets/img/[select-1]thumbs.png"
+                      alt="Thumb do evento Bionexo Select"
+                      sizes="cover"
+                    />
+                    <div class="content-event">
+                      <h3>Bionexo Select</h3>
+                      <p class="h5">
+                        Hospital Nipo Brasileiro apresenta planejamento de
+                        estoque em tempo de crise
+                      </p>
+                      <div class="date-time">
+                        <p><strong>Data: </strong> 7 de junho</p>
+                        <p><strong>Hora: </strong> 17h30</p>
+                      </div>
+
+                      <button class="btn-primary">Participe do evento</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div
+                    class="
+                      event
+                      d-flex
+                      flex-row
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <img
+                      src="./assets/img/[select-2]thumbs.png"
+                      alt="Thumb do evento Bionexo Select"
+                      sizes="cover"
+                    />
+                    <div class="content-event">
+                      <h3>Bionexo Select</h3>
+                      <p class="h5">
+                        Digitalização na gestão financeira de instituições da
+                        saúde
+                      </p>
+                      <div class="date-time">
+                        <p><strong>Data: </strong> 10 de junho</p>
+                        <p><strong>Hora: </strong> 17h30</p>
+                      </div>
+
+                      <button class="btn-primary">Participe do evento</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div
+                    class="
+                      event
+                      d-flex
+                      flex-row
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <img
+                      src="./assets/img/[passaporte]thumbs.png"
+                      alt="Thumb do evento Bionexo Select"
+                      sizes="cover"
+                    />
+                    <div class="content-event">
+                      <h3>Passaporte Healthtech</h3>
+                      <p class="h5">
+                        Produtos Bionexo criando rede colaborativa entre
+                        instituições e fornecedores da saúde
+                      </p>
+                      <div class="date-time">
+                        <p><strong>Data: </strong> 9 de junho</p>
+                        <p><strong>Hora: </strong> 17h30</p>
+                      </div>
+
+                      <button class="btn-primary">Participe do evento</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill"></i>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div id="past-events" class="col-sm-12 hidden">
+            <div class="row d-flex justify-content-center">
+
+              <div class="col-sm-4 past-event">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/imagem-youtube-passaporte.png"
+                    alt="Banner Bionexo Passaporte Healthtech"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Passaporte Healthtech</h5>
+                    <p class="card-text h5">
+                      Impactos da tecnologia na gestão da saúde
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 past-event">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/imagem-youtube-painel.png"
+                    alt="Banner Bionexo Connections"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Painel Tech</h5>
+                    <p class="card-text h5">
+                      A influência dos líderes de TI nas instituições
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 past-event">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/default-image.png"
+                    alt="Lorem Ipsum Dolor Sit Amet"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum Dolor Sit Amet</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 past-event hidden">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/default-image.png"
+                    alt="Lorem Ipsum Dolor Sit Amet"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum Dolor Sit Amet</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 past-event hidden">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/default-image.png"
+                    alt="Lorem Ipsum Dolor Sit Amet"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum Dolor Sit Amet</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 past-event hidden">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/img/default-image.png"
+                    alt="Lorem Ipsum Dolor Sit Amet"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem Ipsum Dolor Sit Amet</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 d-flex justify-content-center">
+                <button id="view-more-button" class="btn btn-primary">Ver mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="complementary-contents">
       <div class="container">
@@ -143,7 +402,10 @@
             </p>
           </div>
           <div class="col-sm-5">
-            <form action="#" class="form d-flex flex-column justify-content-center">
+            <form
+              action="#"
+              class="form d-flex flex-column justify-content-center"
+            >
               <input type="text" placeholder="Nome Completo" />
               <input type="text" placeholder="E-mail corporativo" />
               <input type="tel" placeholder="Telefone com DDD" />
@@ -245,7 +507,7 @@
                 </label>
               </div>
 
-              <input type="button" class="btn-primary" value="Enviar">
+              <input type="button" class="btn-primary" value="Enviar" />
             </form>
           </div>
         </div>
@@ -253,18 +515,20 @@
     </section>
   </body>
   <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"
   ></script>
   <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"
   ></script>
   <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"
   ></script>
+
+  <script src="./js/index.js"></script>
 </html>
